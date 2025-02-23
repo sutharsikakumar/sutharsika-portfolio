@@ -1,0 +1,29 @@
+.header {
+    background-image: linear-gradient(135deg, #A5D8E6, #0A0355);
+    color: white;
+    padding: 1rem 2rem; 
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+    max-width: none; 
+    margin: 0rem; 
+    font-size: 20px;
+  }
+  
+  .navLinks {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  

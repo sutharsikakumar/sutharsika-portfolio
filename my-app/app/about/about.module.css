@@ -1,0 +1,62 @@
+.background {
+    background-color: rgb(254, 254, 254);
+  }
+  
+  .aboutContainer {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .introductionTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin-top: -10px;  
+    font-size: 30px;
+    font-weight: 900;
+  }
+  
+  
+  .introductionBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 60px 0;
+  }
+  
+   .imageScroller:hover .imageScrollWrapper {
+    animation-play-state: paused;
+  }
+  .imageScroller {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  .imageScrollWrapper {
+    display: flex;
+    gap: 10px;
+    animation: scroll 20s linear infinite; 
+    padding: 10px 0;
+    width: max-content; 
+  }
+  
+  .image {
+    width: 425px;
+    height: 425px; 
+    object-fit: cover; 
+    border-radius: 10px;
+    flex-shrink: 0; 
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  

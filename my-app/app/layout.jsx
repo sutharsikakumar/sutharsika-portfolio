@@ -1,13 +1,11 @@
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import { Outfit } from "next/font/google"; 
+import "./styles/globals.css";
+import LayoutWrapper from "./components/layoutwrapper";
 
-// Importing fonts using next/font API
-const geistSans = Geist({
-  subsets: ["latin"],  // You can keep the subsets here
-});
-
-const geistMono = Geist_Mono({
-  subsets: ["latin"],  // Same here for Geist_Mono
+const outfit = Outfit({
+  subsets: ["latin"],
+  weight: ["400", "700"], 
+  variable: "--font-outfit", 
 });
 
 export const metadata = {
@@ -17,9 +15,9 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={`${geistSans.className} ${geistMono.className} antialiased`}>
-        {children}
+    <html lang="en" className={outfit.variable}> 
+      <body className="antialiased">
+        <LayoutWrapper>{children}</LayoutWrapper>
       </body>
     </html>
   );
