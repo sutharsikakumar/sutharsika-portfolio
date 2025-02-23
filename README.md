@@ -1,2 +1,2 @@
 # personal-portfolio-next
-personal portfolio built using next.js
+personal portfolio built using next.js with react
