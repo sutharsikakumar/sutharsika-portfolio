@@ -28,12 +28,6 @@ const About = () => {
             style={{ aspectRatio: '1/1' }}
           />
           <img 
-            src="/assets/mit.jpg" 
-            alt="Cake" 
-            className={styles.image}
-            style={{ aspectRatio: '1/1' }}
-          />
-          <img 
             src="/assets/rockclimb.jpg" 
             alt="Cake" 
             className={styles.image}
@@ -65,12 +59,6 @@ const About = () => {
           />
            <img 
             src="/assets/robotics.jpg" 
-            alt="Cake" 
-            className={styles.image}
-            style={{ aspectRatio: '1/1' }}
-          />
-          <img 
-            src="/assets/mit.jpg" 
             alt="Cake" 
             className={styles.image}
             style={{ aspectRatio: '1/1' }}

@@ -7,3 +7,82 @@
     border-radius: 25px;
     background-color: rgb(235, 235, 235);
 }
+
+.boxgreen {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: rgb(201, 231, 198);
+}
+
+.boxred {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: rgb(231, 198, 198);
+}
+
+.boxblue {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: rgb(198, 216, 231);
+}
+
+.boxyellow {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: rgb(235, 233, 208);
+}
+
+.link {
+    background-color: bisque;
+}
+
+.title {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.paperLink {
+    display: block;
+    margin-bottom: 15px;
+    color: #0073e6;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.paperLink:hover {
+    color: #2b00ff;
+    text-decoration: underline;
+}
+
+.abstract {
+    margin-top: 10px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.imageformat {
+    width: 425px;
+    height: 425px; 
+    object-fit: cover; 
+    border-radius: 10px;
+    flex-shrink: 0; 
+  }
