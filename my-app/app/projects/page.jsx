@@ -4,9 +4,6 @@ import styles from './projects.module.css';
 export default function Projects() {
     return (
       <div>
-        <div>
-          <h1>These are some of the projects that I have worked on/currently working on, please feel free to check it out! Reach out to me if you have any suggestions as well.</h1>
-        </div>
         <div className={styles.box}>
                 <strong>Brewmail.ai</strong>
                 <p>A customized email generator to create personable emails to land your next coffee 
