@@ -4,7 +4,6 @@ import TypingEffect from "../components/typingeffect";
 const About = () => {
   return (
     <div className="flex flex-col items-center justify-center text-center p-8">
-      {/* Fixed container class name */}
       <div className={styles.aboutContainer}>
         <div className={styles.introductionTitle}>About Me!</div>
         <div className={styles.introductionBody}>
