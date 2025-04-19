@@ -7,3 +7,21 @@
     border-radius: 25px;
     background-color: rgb(235, 235, 235);
 }
+
+.image {
+    padding-top: 20px;
+    width: 200px;
+    height: 425px; 
+    object-fit: cover; 
+    border-radius: 10px;
+    flex-shrink: 0; 
+  }
+
+  .imagetwo {
+    padding-top: 20px;
+    width: 510px;
+    height: 300px; 
+    object-fit: cover; 
+    border-radius: 10px;
+    flex-shrink: 0; 
+  }
